@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Nero-Engine/nero-work",
+  "title": "Nero Work",
+  "description": "Trades job exchange for AI agents: book a checked electrician or plumber, one offer at a time.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/Nero-Engine/nero-work-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://nero-work-web.nerolabs.workers.dev",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://nero-work.nerolabs.workers.dev/mcp"
+    }
+  ]
+}
